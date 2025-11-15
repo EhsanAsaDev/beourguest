@@ -53,8 +53,3 @@ Drag and drop the folder to netlify.com
 MIT License
 
 Made with ❤️ in Madrid
-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
-ssh-keygen -t ed25519 -b 4096 -C "{eshakeri@hotmail.com.com}" -f ~/.ssh/github-EhsanAsaDev
-ssh-add ~/.ssh/github-EhsanAsaDev
-
-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
