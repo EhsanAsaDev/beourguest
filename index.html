@@ -3,101 +3,183 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Experience authentic Madrid with our curated services - accommodations, Persian cuisine, car rentals, and VIP tours">
-    <meta name="keywords" content="Madrid, Airbnb, Persian food, car rental, VIP tour, travel">
-    <title>Be Our Guest in Madrid - BeOurQuest.es</title>
+    <meta name="description" content="Be Our Guest in Madrid — Authentic local experiences: cozy Airbnb stays, car rentals, Persian cuisine, and private tours by an Iranian family living in Madrid.">
+    <meta name="keywords" content="Madrid accommodation, Airbnb Madrid, car rental Madrid, Persian food Madrid, VIP tour Madrid, travel Madrid, Iranian hospitality, Madrid travel services">
+    <meta name="author" content="Be Our Guest in Madrid">
+    <meta name="robots" content="index, follow">
+    <title>Be Our Guest in Madrid — Accommodation, Car Rental & Tours | BeOurGuest.es</title>
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://beourguest.es/">
+
+    <!-- Hreflang tags for multilingual SEO -->
+    <link rel="alternate" hreflang="en" href="https://beourguest.es/">
+    <link rel="alternate" hreflang="es" href="https://beourguest.es/">
+    <link rel="alternate" hreflang="fa" href="https://beourguest.es/">
+    <link rel="alternate" hreflang="x-default" href="https://beourguest.es/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://beourguest.es/">
+    <meta property="og:title" content="Be Our Guest in Madrid — Accommodation, Car Rental & Tours">
+    <meta property="og:description" content="Authentic local experiences in Madrid: cozy Airbnb stays, car rentals, Persian cuisine, and private tours by an Iranian family.">
+    <meta property="og:image" content="https://beourguest.es/images/logo.png">
+    <meta property="og:site_name" content="Be Our Guest in Madrid">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="es_ES">
+    <meta property="og:locale:alternate" content="fa_IR">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Be Our Guest in Madrid — Accommodation, Car Rental & Tours">
+    <meta name="twitter:description" content="Authentic local experiences in Madrid: cozy Airbnb stays, car rentals, Persian cuisine, and private tours.">
+    <meta name="twitter:image" content="https://beourguest.es/images/logo.png">
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="images/favicon.png">
     <link rel="apple-touch-icon" href="images/logo.png">
 
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Structured Data: LocalBusiness -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "TravelAgency",
+        "name": "Be Our Guest in Madrid",
+        "url": "https://beourguest.es",
+        "logo": "https://beourguest.es/images/logo.png",
+        "image": "https://beourguest.es/images/logo.png",
+        "description": "Authentic local experiences in Madrid — cozy Airbnb stays, car rentals, Persian cuisine, and private tours by an Iranian family living in Madrid.",
+        "email": "beourguest.madrid@gmail.com",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Madrid",
+            "addressCountry": "ES"
+        },
+        "sameAs": [
+            "https://instagram.com/BeOurGuest.Madrid"
+        ],
+        "areaServed": {
+            "@type": "City",
+            "name": "Madrid"
+        },
+        "knowsLanguage": ["en", "es", "fa"],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Madrid Travel Services",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "LodgingReservation",
+                        "name": "Little Gem Loft - Madrid",
+                        "description": "Cozy Airbnb accommodation in Madrid"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Product",
+                        "name": "Car Rental in Madrid",
+                        "description": "Toyota C-HR rental for exploring Madrid"
+                    }
+                }
+            ]
+        }
+    }
+    </script>
 </head>
 <body>
 <header>
-    <div class="logo-container">
-        <img src="images/logo.png" alt="BeOurQuest Logo" class="logo-image">
-        <div class="logo-text">Be Our Guest in Madrid</div>
-    </div>
-    <div class="lang-flags">
-        <button class="flag-btn active" data-lang="en" title="English">🇬🇧</button>
-        <button class="flag-btn" data-lang="es" title="Español">🇪🇸</button>
-        <button class="flag-btn" data-lang="fa" title="فارسی">🇮🇷</button>
-    </div>
+    <nav aria-label="Main navigation">
+        <div class="logo-container">
+            <img src="images/logo.png" alt="Be Our Guest in Madrid — travel services logo" class="logo-image">
+            <div class="logo-text">Be Our Guest in Madrid</div>
+        </div>
+        <div class="lang-flags" role="group" aria-label="Language selection">
+            <button class="flag-btn active" data-lang="en" title="English" aria-label="Switch to English">🇬🇧</button>
+            <button class="flag-btn" data-lang="es" title="Español" aria-label="Cambiar a Español">🇪🇸</button>
+            <button class="flag-btn" data-lang="fa" title="فارسی" aria-label="تغییر به فارسی">🇮🇷</button>
+        </div>
+    </nav>
 </header>
 
-<section class="hero-banner">
-    <div class="hero-content">
-        <p class="hero-subtitle" id="hero-subtitle">To visit Madrid count on us!</p>
-    </div>
-</section>
+<main>
+    <section class="hero-banner" aria-label="Welcome banner">
+        <div class="hero-content">
+            <h1 class="hero-subtitle" id="hero-subtitle">Come as travelers, leave as friends!</h1>
+        </div>
+    </section>
 
-<section class="services" id="services">
-    <div class="services-grid">
-        <!-- Stay in Madrid - ACTIVE -->
-        <a href="https://www.airbnb.com/rooms/1482630554463418551" target="_blank" class="service-card-link">
-            <div class="service-card">
-                <div class="service-image img-airbnb"></div>
-                <div class="service-content">
-                    <h3 class="service-title" id="service1-title">Stay in Madrid</h3>
-                </div>
-            </div>
-        </a>
-
-        <!-- Drive Madrid - ACTIVE -->
-        <a href="https://amovens.com/cars/1583793" target="_blank" class="service-card-link">
-            <div class="service-card">
-                <div class="service-image img-car"></div>
-                <div class="service-content">
-                    <h3 class="service-title" id="service3-title">Drive Madrid</h3>
-                </div>
-            </div>
-        </a>
-
-        <!-- Taste Madrid - COMING SOON -->
-        <div class="service-card-link">
-            <div class="service-card coming-soon">
-                <div class="service-image img-food">
-                    <div class="coming-soon-overlay">
-                        <div class="coming-soon-badge" data-i18n="comingSoon">Coming Soon</div>
+    <section class="services" id="services" aria-label="Our services">
+        <h2 class="sr-only">Our Services</h2>
+        <div class="services-grid">
+            <!-- Stay in Madrid - ACTIVE -->
+            <a href="https://www.airbnb.com/rooms/1482630554463418551" target="_blank" rel="noopener noreferrer" class="service-card-link" aria-label="Book accommodation - Little Gem Loft in Madrid">
+                <article class="service-card">
+                    <div class="service-image img-airbnb" role="img" aria-label="Cozy Airbnb apartment in Madrid - Little Gem Loft"></div>
+                    <div class="service-content">
+                        <h3 class="service-title" id="service1-title">Little Gem Loft - Madrid</h3>
                     </div>
-                </div>
-                <div class="service-content">
-                    <h3 class="service-title" id="service2-title">Taste Madrid</h3>
-                </div>
+                </article>
+            </a>
+
+            <!-- Drive Madrid - ACTIVE -->
+            <a href="https://amovens.com/cars/1583793" target="_blank" rel="noopener noreferrer" class="service-card-link" aria-label="Rent a Toyota C-HR in Madrid">
+                <article class="service-card">
+                    <div class="service-image img-car" role="img" aria-label="Toyota C-HR available for rent in Madrid"></div>
+                    <div class="service-content">
+                        <h3 class="service-title" id="service3-title">Drive Madrid</h3>
+                    </div>
+                </article>
+            </a>
+
+            <!-- Taste Madrid - COMING SOON -->
+            <div class="service-card-link">
+                <article class="service-card coming-soon">
+                    <div class="service-image img-food" role="img" aria-label="Persian cuisine experience in Madrid - coming soon">
+                        <div class="coming-soon-overlay">
+                            <div class="coming-soon-badge" data-i18n="comingSoon">Coming Soon</div>
+                        </div>
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title" id="service2-title">Taste Madrid</h3>
+                    </div>
+                </article>
+            </div>
+
+            <!-- VIP Tour - COMING SOON -->
+            <div class="service-card-link">
+                <article class="service-card coming-soon">
+                    <div class="service-image img-tour" role="img" aria-label="Private VIP tour of Madrid - coming soon">
+                        <div class="coming-soon-overlay">
+                            <div class="coming-soon-badge" data-i18n="comingSoon">Coming Soon</div>
+                        </div>
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title" id="service4-title">Private Tour</h3>
+                    </div>
+                </article>
             </div>
         </div>
+    </section>
 
-        <!-- VIP Tour - COMING SOON -->
-        <div class="service-card-link">
-            <div class="service-card coming-soon">
-                <div class="service-image img-tour">
-                    <div class="coming-soon-overlay">
-                        <div class="coming-soon-badge" data-i18n="comingSoon">Coming Soon</div>
-                    </div>
-                </div>
-                <div class="service-content">
-                    <h3 class="service-title" id="service4-title">VIP Tour</h3>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="about" id="about">
-    <h2 id="about-title">About</h2>
-    <p id="about-text">Travel your way in Madrid, with our local expertise and warm hospitality.</p>
-</section>
+    <section class="about" id="about" aria-label="About us">
+        <h2 id="about-title">About</h2>
+        <p id="about-text">We're an Iranian family living in Madrid, turning our love for this city into meaningful travel experiences.</p>
+    </section>
+</main>
 
 <footer>
     <div class="footer-content">
-        <div class="social-icons">
-            <a href="https://instagram.com/BeOurGuest.Madrid" class="social-icon" title="Instagram" target="_blank">📷</a>
-            <a href="https://ig.me/m/BeOurGuest.Madrid" class="social-icon" title="Message us on Instagram" target="_blank">💬</a>
-            <a href="mailto:beourguest.madrid@gmail.com" class="social-icon" title="Email">✉️</a>
+        <div class="social-icons" role="group" aria-label="Social media links">
+            <a href="https://instagram.com/BeOurGuest.Madrid" class="social-icon" title="Instagram" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Instagram">📷</a>
+            <a href="https://ig.me/m/BeOurGuest.Madrid" class="social-icon" title="Message us on Instagram" target="_blank" rel="noopener noreferrer" aria-label="Send us a message on Instagram">💬</a>
+            <a href="mailto:beourguest.madrid@gmail.com" class="social-icon" title="Email" aria-label="Send us an email">✉️</a>
         </div>
         <div class="footer-text" id="footer-text">
-            © 2025 BeOurQuest.es — Made with <span class="heart">❤️</span> in Madrid
+            © 2026 BeOurQuest.es — Made with <span class="heart">❤️</span> in Madrid
         </div>
     </div>
 </footer>

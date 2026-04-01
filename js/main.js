@@ -49,6 +49,8 @@ flagBtns.forEach(btn => {
             body.classList.add('rtl');
             body.setAttribute('dir', 'rtl');
             body.setAttribute('lang', 'fa');
+            document.documentElement.setAttribute('lang', 'fa');
+            document.documentElement.setAttribute('dir', 'rtl');
             // Set header to always LTR
             document.querySelector('header').setAttribute('dir', 'ltr');
             document.querySelector('header').classList.add('force-ltr');
@@ -56,6 +58,8 @@ flagBtns.forEach(btn => {
             body.classList.remove('rtl');
             body.setAttribute('dir', 'ltr');
             body.setAttribute('lang', lang);
+            document.documentElement.setAttribute('lang', lang);
+            document.documentElement.setAttribute('dir', 'ltr');
             document.querySelector('header').removeAttribute('dir');
             document.querySelector('header').classList.remove('force-ltr');
         }

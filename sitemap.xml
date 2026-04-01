@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+    <!-- Main page -->
+    <url>
+        <loc>https://beourguest.es/</loc>
+        <lastmod>2026-04-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://beourguest.es/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://beourguest.es/"/>
+        <xhtml:link rel="alternate" hreflang="fa" href="https://beourguest.es/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://beourguest.es/"/>
+    </url>
+
+    <!-- How to Use Coffee Maker -->
+    <url>
+        <loc>https://beourguest.es/little_gme/how_to_use_coffee_maker.html</loc>
+        <lastmod>2026-04-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://beourguest.es/little_gme/how_to_use_coffee_maker.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://beourguest.es/little_gme/how_to_use_coffee_maker.html"/>
+        <xhtml:link rel="alternate" hreflang="fa" href="https://beourguest.es/little_gme/how_to_use_coffee_maker.html"/>
+    </url>
+
+    <!-- How to Use Air Conditioner Remote -->
+    <url>
+        <loc>https://beourguest.es/little_gme/how_to_use_air_conditioner_remote.html</loc>
+        <lastmod>2026-04-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://beourguest.es/little_gme/how_to_use_air_conditioner_remote.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://beourguest.es/little_gme/how_to_use_air_conditioner_remote.html"/>
+        <xhtml:link rel="alternate" hreflang="fa" href="https://beourguest.es/little_gme/how_to_use_air_conditioner_remote.html"/>
+    </url>
+
+</urlset>
+

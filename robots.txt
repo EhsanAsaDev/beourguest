@@ -1,0 +1,11 @@
+# robots.txt for beourguest.es
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://beourguest.es/sitemap.xml
+
+# Disallow non-content directories
+Disallow: /js/
+Disallow: /css/
+
