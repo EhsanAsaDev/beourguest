@@ -5,7 +5,14 @@ Allow: /
 # Sitemap location
 Sitemap: https://beourguest.es/sitemap.xml
 
-# Disallow non-content directories
+# Disallow non-content directories (but allow favicon/manifest)
 Disallow: /js/
 Disallow: /css/
+
+# Explicitly allow favicon and images for Google
+Allow: /images/favicon-48x48.png
+Allow: /images/favicon-96x96.png
+Allow: /images/favicon-192x192.png
+Allow: /images/apple-touch-icon.png
+Allow: /site.webmanifest
 
